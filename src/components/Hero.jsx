@@ -1,6 +1,8 @@
+import bg from '/home-bg.jpg'
+
 const Hero = () => {
   return (
-    <div className="hero min-h-screen bg-[url(\home-bg.jpg)] relative bg-cover">
+    <div className="hero min-h-screen relative bg-cover" style={{ backgroundImage: `url(${bg})` }}>
       <div className="absolute w-full h-full bg-gradient-to-r from-[#0575E6] to-[#00F260] z-10 top-0 left-0 opacity-80"></div>
       <div className="hero-content flex-col-reverse lg:flex-row-reverse max-w-screen-2xl justify-between lg:justify-evenly z-20 items-center py-36">
         <div className="w-full lg:w-auto flex  justify-center">
