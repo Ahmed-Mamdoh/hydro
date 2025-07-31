@@ -7,37 +7,29 @@ const Work = () => {
           <div className="work-imgs">
             <img src="work-image1.jpg" alt="" />
             <div className="work-img-hover">
-              {/* <h3 className="work-img-hover-h3">Clean & Minimal</h3> */}{" "}
-              {/*JS Needed for hover parent */}
-              {/* <p className="work-img-hover-p">product Design</p> */}{" "}
-              {/*JS Needed for hover parent */}
+              <h3 className="work-img-hover-h3">Clean & Minimal</h3>
+              <p className="work-img-hover-p">product Design</p>
             </div>
           </div>
           <div className="work-imgs">
             <img src="work-image2.jpg" alt="" />
             <div className="work-img-hover">
-              {/* <h3 className="work-img-hover-h3">Studio Bag</h3> */}{" "}
-              {/*JS Needed for hover parent */}
-              {/* <p className="work-img-hover-p">Branding</p> */}{" "}
-              {/*JS Needed for hover parent */}
+              <h3 className="work-img-hover-h3">Studio Bag</h3>
+              <p className="work-img-hover-p">Branding</p>
             </div>
           </div>
           <div className="work-imgs">
             <img src="work-image3.jpg" alt="" />
             <div className="work-img-hover">
-              {/* <h3 className="work-img-hover-h3">Frame Design</h3> */}{" "}
-              {/*JS Needed for hover parent */}
-              {/* <p className="work-img-hover-p">Photography</p> */}{" "}
-              {/*JS Needed for hover parent */}
+              <h3 className="work-img-hover-h3">Frame Design</h3>
+              <p className="work-img-hover-p">Photography</p>
             </div>
           </div>
           <div className="work-imgs">
             <img src="work-image4.jpg" alt="" />
             <div className="work-img-hover">
-              {/* <h3 className="work-img-hover-h3">Paint Work</h3> */}{" "}
-              {/*JS Needed for hover parent */}
-              {/* <p className="work-img-hover-p">Art, Design</p> */}{" "}
-              {/*JS Needed for hover parent */}
+              <h3 className="work-img-hover-h3">Paint Work</h3>
+              <p className="work-img-hover-p">Art, Design</p>
             </div>
           </div>
         </div>

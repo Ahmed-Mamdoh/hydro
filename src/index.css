@@ -23,8 +23,17 @@
 }
 
 .work-img-hover-h3 {
-  @apply text-white font-semibold text-xl;
+  @apply text-white font-semibold text-xl opacity-0 transition-opacity duration-700 ease-in-out;
 }
+
+.work-img-hover:hover .work-img-hover-h3 {
+  @apply opacity-100 transition-opacity duration-700 ease-in-out;
+}
+
 .work-img-hover-p {
-  @apply text-white text-sm uppercase;
+  @apply text-white text-sm uppercase opacity-0 transition-opacity duration-700 ease-in-out;
+}
+
+.work-img-hover:hover .work-img-hover-p {
+  @apply opacity-100 transition-opacity duration-700 ease-in-out;
 }
